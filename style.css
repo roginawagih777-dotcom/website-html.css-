@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./photo_2026-10-25_22-34-15.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(4, 4, 73);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar p{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.Navbar p span {
+    color: rgb(205, 159, 248);
+}
+
+.nav1 {
+    display: flex;
+    align-content: center;
+    gap: 50px;
+    padding-right:10px ;
+   
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+div.content h1 {
+    width: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 120px;
+}
+
+div.content h1 span {
+    color: rgb(205, 159, 248);
+}
+
+div.content p {
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+div.content button {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(150, 62, 233);
+}
+
+@media screen and (max-width: 450px ) {
+    .Navbar p{
+    padding-left:60px ;
+}
+   
+    .Navbar {
+    display: inline-block;
+    align-content: center;
+}
+
+    div.content h1 {
+    width: 350px;
+    font-size: 40px;   
+}
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+section h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px; 
+}
+
+section p {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    background-color: rgb(197, 243, 243);
+    padding: 40px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.Badge {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+.card p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(150, 62, 233);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(4, 4, 73);
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px;
+    margin-top: 100px;
+
+}
+
+footer h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer h3 span {
+    color: rgb(205, 159, 248);
+}
+
+footer p {
+    color: white;
+}
+
+@media  screen and (max-width :450px) {
+    .parent {
+    display: block;
+    }
+
+    .Badge {
+    top: 20px;
+    right: 20px;
+    padding: 7px 10px;
+    
+}
+
+.card h3 {
+    font-size: 20px;
+
+}   
+}
